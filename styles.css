@@ -1,0 +1,114 @@
+html{
+  box-sizing: border-box
+}
+
+body{
+  background: rgba(15,15,15,88%);
+}
+
+.under-lining{
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background: linear-gradient(rgba(100,100,100,80%),rgba(50,50,50,100%));
+  border-bottom: 15px solid rgba(200,200,200,70%);
+  border-right: 2px solid rgba(200,200,200,70%);
+  border-left: 2px solid rgba(200,200,200,70%);
+  border-top: 2px solid rgba(200,200,200,70%);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,100%);
+}
+
+@media (max-width: 500px){
+.under-lining{
+  width: 500px;
+  margin: 0 auto;
+ }
+}
+
+.teleport-sign{
+  border-bottom: 5px solid black;
+  width: 230px;
+  padding-left: 40px;
+  margin-top: 30px;
+  margin-left: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 8px;
+  color: rgba(200,200,200,80%);
+}
+
+
+.nav-link{
+  background: linear-gradient(rgba(226, 222, 222, 0.8),rgb(255, 254, 254));
+  box-shadow: 5px 5px 5px rgba(5, 5, 5, 0.8);
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.tele > li{
+  padding: 10px;
+  width: 380px;
+  max-width: 400px;
+  min-width: 100px;
+}
+
+#heading{
+font-size: 40px;
+}
+
+.headings{
+  font-size: 40px;
+  color: rgba(150,150,150,80%);
+  min-width: 200px;
+  max-width: 800px; 
+}
+
+.describe{
+  font-size: 26px;
+  color: rgba(150,150,150,70%);
+  padding: 10px;
+  min-width: 200px;
+  max-width: 700px;
+}
+
+.type{
+  font-size: 23px;
+  color: rgba(150,150,150,70%);
+  padding: 10px
+  min-width: 100px;
+  max-width: 300px;
+}
+
+.method{
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  font-size: 19px;
+  color: rgba(150,150,150,70%);
+  min-width: 200px;
+  max-width: 650px;
+}
+
+.method-heading{
+  font-size: 21px;
+  font-weight: bold;
+  color: rgba(150,150,150,70%)
+}
+
+li{
+  font-size: 30px;
+  color: rgba(150,150,150,70%);
+}
+
+.refer{
+  font-size: 20px;
+  color: rgba(150,150,150,70%);
+  min-width: 200px;
+}
+
+*{
+  scroll-behavior: smooth;
+}
