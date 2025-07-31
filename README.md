@@ -2,7 +2,7 @@
 on the 3rd day of FreeCodeCamp learning HTML and CSS studies
 
 ## Live Site
-[See live on netlify] - 
+[See live on netlify] - https://technical-page-1.netlify.app/
 
 ## Features
 
